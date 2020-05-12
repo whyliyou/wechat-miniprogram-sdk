@@ -1,0 +1,22 @@
+{
+    "name": "whyly/wechat-miniprogram-sdk",
+    "description": "wechat miniprogram sdk，小程序服务端SDK。",
+    "keywords": ["wechat","miniprogram","wechat miniprogram sdk"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "whyly",
+            "email": "whyliyou@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Whyly\\MiniProgram\\": "src/"
+        }
+    }
+}
